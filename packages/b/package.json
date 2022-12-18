@@ -1,12 +1,12 @@
 {
   "name": "@luhengchang228/monorepo-pkg-b",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "dependencies": {
-    "@luhengchang228/monorepo-pkg-a": "^0.1.0-beta.0"
+    "@luhengchang228/monorepo-pkg-a": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^4.9.4"

@@ -1,6 +1,6 @@
 # @luhengchang228/monorepo-pkg-a
 
-## 0.1.0-beta.0
+## 0.1.0
 
 ### Minor Changes
 
