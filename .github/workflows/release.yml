@@ -34,11 +34,8 @@ jobs:
         run: pnpm run build
 
       - name: Publish Packages
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: pnpm release
+        run: |
+          pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
+          pnpm release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
