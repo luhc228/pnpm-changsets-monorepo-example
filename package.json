@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "pnpm --parallel -r run watch",
     "build": "pnpm -r run build",
+    "changeset": "changeset",
     "version": "changeset version",
     "publish": "changeset publish"
   },
