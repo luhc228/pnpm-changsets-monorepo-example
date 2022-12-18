@@ -5,13 +5,10 @@
   "description": "A monorepo example with pnpm and changesets.",
   "scripts": {
     "watch": "pnpm --parallel --filter=./packages/* run watch",
-    "build": "pnpm -r --filter=./packages/* run build",
-    "version": "changeset version",
-    "publish": "changeset publish"
+    "build": "pnpm -r --filter=./packages/* run build"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "@changesets/cli": "^2.25.2"
+    "rimraf": "^3.0.2"
   },
   "packageManager": "pnpm@7.18.0",
   "license": "MIT"
