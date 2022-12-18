@@ -34,7 +34,9 @@ jobs:
         run: pnpm run build
 
       - name: Publish Packages
-        run: pnpm run release
+        run: |
+          pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
+          pnpm release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
