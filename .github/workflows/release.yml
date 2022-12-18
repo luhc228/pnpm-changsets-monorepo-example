@@ -33,9 +33,11 @@ jobs:
       - name: Build Packages
         run: pnpm run build
 
-      - name: Publish Packages
-        run: |
-          pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
-          pnpm release
+      - name: Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm release
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
