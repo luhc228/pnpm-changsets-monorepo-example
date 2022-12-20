@@ -1,5 +1,11 @@
 # @luhengchang228/monorepo-pkg-a
 
+## 0.1.2
+
+### Patch Changes
+
+- 74ca3b9: add log
+
 ## 0.1.1
 
 ### Patch Changes
