@@ -7,6 +7,7 @@
     "@luhengchang228/monorepo-pkg-c": "0.0.1"
   },
   "changesets": [
-    "chilled-rivers-sit"
+    "chilled-rivers-sit",
+    "selfish-ghosts-exercise"
   ]
 }

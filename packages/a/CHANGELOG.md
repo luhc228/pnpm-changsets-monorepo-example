@@ -1,5 +1,11 @@
 # @luhengchang228/monorepo-pkg-a
 
+## 0.1.2-beta.1
+
+### Patch Changes
+
+- 58ec308: ddddd111
+
 ## 0.1.2-beta.0
 
 ### Patch Changes
