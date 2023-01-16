@@ -1,5 +1,13 @@
 # @luhengchang228/monorepo-pkg-b
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies [8da2f3b]
+- Updated dependencies [8da2f3b]
+  - @luhengchang228/monorepo-pkg-a@0.1.2
+
 ## 0.0.2-beta.0
 
 ### Patch Changes
